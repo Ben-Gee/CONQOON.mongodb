@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  author: Benjamin Gröner
+  description: Installs and configures mongodb on Ubuntu
+  issue_tracker_url: https://github.com/CONQOON/ansible-mongodb/issues
+  license: MIT
+  min_ansible_version: 1.3
+
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+
+  categories:
+  - mongodb
+  - nosql
+  - database
+dependencies: []
